@@ -22636,3 +22636,100 @@ java.io.EOFException: null
 2018-06-10 13:48:45.982 DEBUG 16460 --- [http-nio-8080-exec-3] o.apache.coyote.http11.Http11Processor   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@5ead7bf7:org.apache.tomcat.util.net.NioChannel@52588ddc:java.nio.channels.SocketChannel[connected local=/0:0:0:0:0:0:0:1:8080 remote=/0:0:0:0:0:0:0:1:38694]], Status in: [OPEN_READ], State out: [CLOSED]
 2018-06-10 13:48:45.984 DEBUG 16460 --- [http-nio-8080-exec-3] o.apache.tomcat.util.threads.LimitLatch  : Counting down[http-nio-8080-exec-3] latch=1
 2018-06-10 13:48:45.984 DEBUG 16460 --- [http-nio-8080-exec-3] org.apache.tomcat.util.net.NioEndpoint   : Socket: [org.apache.tomcat.util.net.NioChannel@52588ddc:java.nio.channels.SocketChannel[closed]] closed
+2018-06-10 13:49:08.398 DEBUG 16460 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2018-06-10 13:49:38.400 DEBUG 16460 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2018-06-10 13:50:08.402 DEBUG 16460 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2018-06-10 13:50:25.677 DEBUG 16460 --- [http-nio-8080-Acceptor-0] o.apache.tomcat.util.threads.LimitLatch  : Counting up[http-nio-8080-Acceptor-0] latch=1
+2018-06-10 13:50:25.679 DEBUG 16460 --- [http-nio-8080-Acceptor-0] o.apache.tomcat.util.threads.LimitLatch  : Counting up[http-nio-8080-Acceptor-0] latch=2
+2018-06-10 13:50:25.683 DEBUG 16460 --- [http-nio-8080-exec-4] o.a.tomcat.util.net.SocketWrapperBase    : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@18245d06:org.apache.tomcat.util.net.NioChannel@52588ddc:java.nio.channels.SocketChannel[connected local=/0:0:0:0:0:0:0:1:8080 remote=/0:0:0:0:0:0:0:1:38870]], Read from buffer: [0]
+2018-06-10 13:50:25.685 DEBUG 16460 --- [http-nio-8080-exec-4] org.apache.tomcat.util.net.NioEndpoint   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@18245d06:org.apache.tomcat.util.net.NioChannel@52588ddc:java.nio.channels.SocketChannel[connected local=/0:0:0:0:0:0:0:1:8080 remote=/0:0:0:0:0:0:0:1:38870]], Read direct from socket: [437]
+2018-06-10 13:50:25.686 DEBUG 16460 --- [http-nio-8080-exec-4] o.a.coyote.http11.Http11InputBuffer      : Received [GET /api/goats HTTP/1.1
+Host: localhost:8080
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+DNT: 1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,tr;q=0.8
+
+]
+2018-06-10 13:50:25.686 DEBUG 16460 --- [http-nio-8080-exec-4] org.apache.tomcat.util.http.Parameters   : Set query string encoding to UTF-8
+2018-06-10 13:50:25.691 DEBUG 16460 --- [http-nio-8080-exec-4] o.a.c.authenticator.AuthenticatorBase    : Security checking request GET /api/goats
+2018-06-10 13:50:25.693 DEBUG 16460 --- [http-nio-8080-exec-4] org.apache.catalina.realm.RealmBase      :   No applicable constraints defined
+2018-06-10 13:50:25.693 DEBUG 16460 --- [http-nio-8080-exec-4] o.a.c.authenticator.AuthenticatorBase    :  Not subject to any constraint
+2018-06-10 13:50:25.695 DEBUG 16460 --- [http-nio-8080-exec-4] o.s.b.w.s.f.OrderedRequestContextFilter  : Bound request context to thread: org.apache.catalina.connector.RequestFacade@37f15506
+2018-06-10 13:50:25.697 DEBUG 16460 --- [http-nio-8080-exec-4] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Looking up handler method for path /api/goats
+2018-06-10 13:50:25.699 DEBUG 16460 --- [http-nio-8080-exec-4] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Did not find handler method for [/api/goats]
+2018-06-10 13:50:25.701 DEBUG 16460 --- [http-nio-8080-exec-4] a.e.w.s.ControllerEndpointHandlerMapping : Looking up handler method for path /api/goats
+2018-06-10 13:50:25.701 DEBUG 16460 --- [http-nio-8080-exec-4] a.e.w.s.ControllerEndpointHandlerMapping : Did not find handler method for [/api/goats]
+2018-06-10 13:50:25.702 DEBUG 16460 --- [http-nio-8080-exec-4] o.s.b.f.s.DefaultListableBeanFactory     : Returning cached instance of singleton bean 'goatController'
+2018-06-10 13:50:25.704 DEBUG 16460 --- [http-nio-8080-exec-4] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Looking up handler method for path /api/goats
+2018-06-10 13:50:25.713 DEBUG 16460 --- [http-nio-8080-exec-4] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Did not find handler method for [/api/goats]
+2018-06-10 13:50:25.724 DEBUG 16460 --- [http-nio-8080-exec-4] a.e.w.s.ControllerEndpointHandlerMapping : Looking up handler method for path /api/goats
+2018-06-10 13:50:25.724 DEBUG 16460 --- [http-nio-8080-exec-4] a.e.w.s.ControllerEndpointHandlerMapping : Did not find handler method for [/api/goats]
+2018-06-10 13:50:25.726 DEBUG 16460 --- [http-nio-8080-exec-4] o.s.b.f.s.DefaultListableBeanFactory     : Returning cached instance of singleton bean 'goatController'
+2018-06-10 13:50:25.728 DEBUG 16460 --- [http-nio-8080-exec-4] o.j.s.OpenEntityManagerInViewInterceptor : Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2018-06-10 13:50:25.730 DEBUG 16460 --- [http-nio-8080-exec-4] o.s.orm.jpa.JpaTransactionManager        : Found thread-bound EntityManager [SessionImpl(PersistenceContext[entityKeys=[],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])] for JPA transaction
+2018-06-10 13:50:25.730 DEBUG 16460 --- [http-nio-8080-exec-4] o.s.orm.jpa.JpaTransactionManager        : Creating new transaction with name [org.springframework.data.jpa.repository.support.SimpleJpaRepository.findAll]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly; ''
+2018-06-10 13:50:25.731 DEBUG 16460 --- [http-nio-8080-exec-4] o.s.jdbc.datasource.DataSourceUtils      : Setting JDBC Connection [HikariProxyConnection@452603128 wrapping com.mysql.jdbc.JDBC4Connection@1256bc5f] read-only
+2018-06-10 13:50:25.742 DEBUG 16460 --- [http-nio-8080-exec-4] o.s.orm.jpa.JpaTransactionManager        : Exposing JPA transaction as JDBC transaction [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@6220b1b5]
+2018-06-10 13:50:25.749 DEBUG 16460 --- [http-nio-8080-exec-4] o.s.orm.jpa.JpaTransactionManager        : Initiating transaction commit
+2018-06-10 13:50:25.749 DEBUG 16460 --- [http-nio-8080-exec-4] o.s.orm.jpa.JpaTransactionManager        : Committing JPA transaction on EntityManager [SessionImpl(PersistenceContext[entityKeys=[],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])]
+2018-06-10 13:50:25.752 DEBUG 16460 --- [http-nio-8080-exec-4] o.s.jdbc.datasource.DataSourceUtils      : Resetting read-only flag of JDBC Connection [HikariProxyConnection@452603128 wrapping com.mysql.jdbc.JDBC4Connection@1256bc5f]
+2018-06-10 13:50:25.753 DEBUG 16460 --- [http-nio-8080-exec-4] o.s.orm.jpa.JpaTransactionManager        : Not closing pre-bound JPA EntityManager after transaction
+2018-06-10 13:50:25.765 DEBUG 16460 --- [http-nio-8080-exec-4] o.j.s.OpenEntityManagerInViewInterceptor : Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2018-06-10 13:50:25.767 DEBUG 16460 --- [http-nio-8080-exec-4] o.s.orm.jpa.EntityManagerFactoryUtils    : Closing JPA EntityManager
+2018-06-10 13:50:25.769 DEBUG 16460 --- [http-nio-8080-exec-4] c.g.goatdairyfarm.filter.LoggingFilter   : Request Data: null
+2018-06-10 13:50:25.769 DEBUG 16460 --- [http-nio-8080-exec-4] c.g.goatdairyfarm.filter.LoggingFilter   : Response Data: []
+2018-06-10 13:50:25.773 DEBUG 16460 --- [http-nio-8080-exec-4] o.s.b.w.s.f.OrderedRequestContextFilter  : Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@37f15506
+2018-06-10 13:50:25.774 DEBUG 16460 --- [http-nio-8080-exec-4] o.a.tomcat.util.net.SocketWrapperBase    : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@18245d06:org.apache.tomcat.util.net.NioChannel@52588ddc:java.nio.channels.SocketChannel[connected local=/0:0:0:0:0:0:0:1:8080 remote=/0:0:0:0:0:0:0:1:38870]], Read from buffer: [0]
+2018-06-10 13:50:25.777 DEBUG 16460 --- [http-nio-8080-exec-4] org.apache.tomcat.util.net.NioEndpoint   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@18245d06:org.apache.tomcat.util.net.NioChannel@52588ddc:java.nio.channels.SocketChannel[connected local=/0:0:0:0:0:0:0:1:8080 remote=/0:0:0:0:0:0:0:1:38870]], Read direct from socket: [0]
+2018-06-10 13:50:25.787 DEBUG 16460 --- [http-nio-8080-exec-4] o.apache.coyote.http11.Http11Processor   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@18245d06:org.apache.tomcat.util.net.NioChannel@52588ddc:java.nio.channels.SocketChannel[connected local=/0:0:0:0:0:0:0:1:8080 remote=/0:0:0:0:0:0:0:1:38870]], Status in: [OPEN_READ], State out: [OPEN]
+2018-06-10 13:50:25.979 DEBUG 16460 --- [http-nio-8080-exec-6] o.a.tomcat.util.net.SocketWrapperBase    : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@18245d06:org.apache.tomcat.util.net.NioChannel@52588ddc:java.nio.channels.SocketChannel[connected local=/0:0:0:0:0:0:0:1:8080 remote=/0:0:0:0:0:0:0:1:38870]], Read from buffer: [0]
+2018-06-10 13:50:25.979 DEBUG 16460 --- [http-nio-8080-exec-6] o.apache.coyote.http11.Http11Processor   : Error parsing HTTP request header
+
+java.io.EOFException: null
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.fillReadBuffer(NioEndpoint.java:1259) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.read(NioEndpoint.java:1193) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.coyote.http11.Http11InputBuffer.fill(Http11InputBuffer.java:725) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:368) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:687) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1468) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_121]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_121]
+
+2018-06-10 13:50:25.980 DEBUG 16460 --- [http-nio-8080-exec-5] o.a.tomcat.util.net.SocketWrapperBase    : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@17b750a2:org.apache.tomcat.util.net.NioChannel@4b89cb0c:java.nio.channels.SocketChannel[connected local=/0:0:0:0:0:0:0:1:8080 remote=/0:0:0:0:0:0:0:1:38871]], Read from buffer: [0]
+2018-06-10 13:50:25.981 DEBUG 16460 --- [http-nio-8080-exec-6] o.apache.coyote.http11.Http11Processor   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@18245d06:org.apache.tomcat.util.net.NioChannel@52588ddc:java.nio.channels.SocketChannel[connected local=/0:0:0:0:0:0:0:1:8080 remote=/0:0:0:0:0:0:0:1:38870]], Status in: [OPEN_READ], State out: [CLOSED]
+2018-06-10 13:50:25.982 DEBUG 16460 --- [http-nio-8080-exec-6] o.apache.tomcat.util.threads.LimitLatch  : Counting down[http-nio-8080-exec-6] latch=2
+2018-06-10 13:50:25.983 DEBUG 16460 --- [http-nio-8080-exec-6] org.apache.tomcat.util.net.NioEndpoint   : Socket: [org.apache.tomcat.util.net.NioChannel@52588ddc:java.nio.channels.SocketChannel[closed]] closed
+2018-06-10 13:50:25.981 DEBUG 16460 --- [http-nio-8080-exec-5] o.apache.coyote.http11.Http11Processor   : Error parsing HTTP request header
+
+java.io.EOFException: null
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.fillReadBuffer(NioEndpoint.java:1259) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.read(NioEndpoint.java:1193) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.coyote.http11.Http11InputBuffer.fill(Http11InputBuffer.java:725) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:368) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:687) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1468) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_121]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_121]
+
+2018-06-10 13:50:25.983 DEBUG 16460 --- [http-nio-8080-exec-5] o.apache.coyote.http11.Http11Processor   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@17b750a2:org.apache.tomcat.util.net.NioChannel@4b89cb0c:java.nio.channels.SocketChannel[connected local=/0:0:0:0:0:0:0:1:8080 remote=/0:0:0:0:0:0:0:1:38871]], Status in: [OPEN_READ], State out: [CLOSED]
+2018-06-10 13:50:25.983 DEBUG 16460 --- [http-nio-8080-exec-5] o.apache.tomcat.util.threads.LimitLatch  : Counting down[http-nio-8080-exec-5] latch=1
+2018-06-10 13:50:25.984 DEBUG 16460 --- [http-nio-8080-exec-5] org.apache.tomcat.util.net.NioEndpoint   : Socket: [org.apache.tomcat.util.net.NioChannel@4b89cb0c:java.nio.channels.SocketChannel[closed]] closed
+2018-06-10 13:50:38.406 DEBUG 16460 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2018-06-10 13:51:07.511 DEBUG 16460 --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1528627867511 sessioncount 0
+2018-06-10 13:51:07.513 DEBUG 16460 --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 2 expired sessions: 0
+2018-06-10 13:51:08.419 DEBUG 16460 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
