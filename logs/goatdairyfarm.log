@@ -22733,3 +22733,15 @@ java.io.EOFException: null
 2018-06-10 13:51:07.511 DEBUG 16460 --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1528627867511 sessioncount 0
 2018-06-10 13:51:07.513 DEBUG 16460 --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 2 expired sessions: 0
 2018-06-10 13:51:08.419 DEBUG 16460 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2018-06-10 13:51:38.422 DEBUG 16460 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2018-06-10 13:52:08.426 DEBUG 16460 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2018-06-10 13:52:38.428 DEBUG 16460 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2018-06-10 13:53:08.431 DEBUG 16460 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2018-06-10 13:53:38.434 DEBUG 16460 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2018-06-10 13:54:07.521 DEBUG 16460 --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1528628047521 sessioncount 0
+2018-06-10 13:54:07.522 DEBUG 16460 --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 1 expired sessions: 0
+2018-06-10 13:54:08.437 DEBUG 16460 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2018-06-10 13:54:38.440 DEBUG 16460 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2018-06-10 13:55:08.442 DEBUG 16460 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2018-06-10 13:55:38.445 DEBUG 16460 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2018-06-10 13:56:08.448 DEBUG 16460 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
